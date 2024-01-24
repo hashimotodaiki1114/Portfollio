@@ -1,0 +1,332 @@
+@charset "UTF-8";
+@media screen and (min-width:1000px){
+
+section#main{
+    background-color: rgb(62, 62, 101);
+     padding-bottom: 40px;
+ }
+ 
+.photo2{
+    
+    background-image:url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo3{
+    margin-top:27px;
+    background-image:url(../img/B0234645_10175045.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo4{
+    margin-top:27px;
+    background-image:url(../img/51YNFET0QFL._AC_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo5{
+    margin-top:27px;
+    background-image:url(../img/51KKSDZH7ZL._AC_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo6{
+    margin-top:27px;
+    background-image:url(../img/51X9Y4JPYNL._AC_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo7{
+    margin-top:27px;
+    background-image:url(../img/pokemon_diamond_pearl_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo8{
+    margin-top:27px;
+    background-image:url(../img/snap.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo9{
+    margin-top:27px;
+    background-image:url(../img/platinum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo10{
+    margin-top:27px;
+    background-image:url(../img/Hgold\,Ssilver.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo11{
+    margin-top:27px;
+    background-image:url(../img/BW.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo12{
+    margin-top:27px;
+    background-image:url(../img/pkmnsc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo13{
+    margin-top:27px;
+    background-image:url(../img/4556e772.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo14{
+    margin-top:27px;
+    background-image:url(../img/pokemon-xy-eye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+
+.photo15{
+    margin-top:27px;
+    background-image:url(../img/thumb_ds_oras.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo16{
+    margin-top:27px;
+    background-image:url(../img/thumb_ds_poketoru.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo17{
+    margin-top:27px;
+    background-image:url(../img/thumb_sun_moon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo18{
+    margin-top:27px;
+    background-image:url(../img/thumb_usum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo19{
+    margin-top:27px;
+    background-image:url(../img/thumb_TANTEI_PIKA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo20{
+    margin-top:27px;
+    background-image:url(../img/thumb_sword_shield.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo21{
+    margin-top:27px;
+    background-image:url(../img/thumb_sword_shield_expansion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo22{
+    margin-top:27px;
+    background-image:url(../img/thumb_bdsp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo23{
+    margin-top:27px;
+    background-image:url(../img/pkmn_sv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.produce{
+    color:#fbfde2;
+}
+.honbun{
+    font-size:1.2em;
+    
+}
+
+.pankuzu{
+    color:#fbfde2;
+    background-color: rgb(62, 62, 101);
+    font-size:0.8rem;
+
+}
+
+.abc{
+    margin-top: 60px;
+}
+button{
+    margin-bottom: 20px;
+    border:1px solid #ccc9c9;
+    font-size:1.2em;
+    border-radius: 0.2em;
+}
+
+button:hover{
+    
+    color:#fff;
+    transition:0.2s;
+}
+
+button a{
+    display: block;
+    padding: 0.6em 2.5em;
+    background-color: #02a518;
+    text-decoration: none;
+    color:rgb(33, 24, 24);
+}
+button a:hover{
+    color:#fff;
+}
+
+
+
+h2{
+    color:#fbfde2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 3rem;
+}
+
+p.s_title{
+    color: rgb(255, 252, 103);
+}
+p.s2_title{
+    color:rgb(255, 252, 103);
+    font-size: 1.3rem;
+}
+p.s_bun{
+    font-size: 1.2rem;
+}
+
+span.link a{
+    text-decoration: none;
+    color:rgb(255, 252, 103);
+    font-size: 1.5rem;
+    
+}
+audio{
+    width:80%;
+    border-radius: 20px;
+}
+
+
+}

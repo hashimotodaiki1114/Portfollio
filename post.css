@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@media screen and (min-width:1000px){
+
+section#main{
+    margin-bottom: 50px;
+    padding-top: 20px;
+ }
+
+.photo01{
+    background-image:url(../img/myicon2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.photo02{
+    background-image:url(../img/icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    height:300px;
+}
+.produce{
+    color:#fbfde2;
+}
+.name{
+    color:#fbfde2;
+}
+.honbun{
+    color: #fbfde2;
+    font-size:1.2em;
+}
+
+
+
+
+button{
+    margin-bottom: 20px;
+    border:1px solid #ccc9c9;
+    font-size:1.2em;
+    border-radius: 0.2em;
+}
+
+button:hover{
+    
+    color:#fff;
+    transition:0.2s;
+}
+
+button a{
+    display: block;
+    padding: 0.6em 2.5em;
+    background-color: #02a518;
+    text-decoration: none;
+    color:rgb(33, 24, 24);
+}
+button a:hover{
+    color:#fff;
+}
+
+
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 3rem;
+}
+
+p.s_title{
+    color: rgb(223, 222, 120);
+}
+p.s2_title{
+    color: rgb(223, 222, 120);
+    font-size: 1.3rem;
+}
+p.s_bun{
+    font-size: 1.2rem;
+}
+
+span.link a{
+    text-decoration: none;
+    color:rgb(223, 222, 120);
+    font-size: 1.5rem;
+    
+}
+audio{
+    width:80%;
+    border-radius: 20px;
+}
+
+}
