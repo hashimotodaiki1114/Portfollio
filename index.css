@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+
+video{
+    position:absolute;/*親要素に重ねる子要素*/
+    width:100%;
+    top:60%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: auto;
+}
+
+.videoflame{
+    width: 101%;
+    height: 450px;
+    position:relative;/*親要素*/
+    overflow: hidden;
+}
+
+.videotitle{
+    position: absolute;/*親要素に重ねる子要素*/
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+}
+
+.videotitle img{
+    width:85%;
+    height:85%;
+}
+
+.videoyajirushi{
+    position:absolute;
+    bottom:20px;
+    left: 48.8%;
+    transform: translateY(-50%);
+}
+
+.videoyajirushi a:hover{
+    opacity: 1;
+}
+
+section#osusume{
+    background-color: rgb(62, 62, 101);
+    padding:50px
+}
+
+section#gray{
+    background-color: rgb(62, 62, 101);
+    padding: 50px;
+    
+    
+}
+
+p.osusume_title{
+    padding-bottom: 30px;
+    font-family :
+	YuMincho,    /* Mac用 */
+	'Yu Mincho', /* Windows用 */
+	serif;
+    color:#fbfde2;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin:10px 0;
+}
+
+.midashi{
+    color:#7c7c7c;
+    background-color:#fbfde2;
+    width: 268px;
+    position:relative;
+    border-radius: 22px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);/*aはアルファチャンネルの略…意味は透過率(opacity)*/
+}
+
+.midashi_photo{
+    margin:0;
+    padding:0;
+    width: 268px;
+    height:225px;
+    background-color: rgb(29, 154, 4);
+    border-radius: 21px 21px 0 0;
+    position:relative;
+}
+.midashi_photo a{
+    width:100%;
+    height:100%;
+    display:block;/*領域確保で使う*/
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    border-radius: 20px 20px 0 0;
+}
+
+.midashi p.midashi_title{
+    height:100px;
+    width:268px;
+    cursor: pointer;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.midashi>span{/*見出しの直結のspanという意味*/
+    display:none;
+}
+
+.midashi>span.logo{
+    display: block;
+    width: 268px;
+    height:225px;
+    position:absolute;
+    top:0;
+    left:0;
+    cursor: pointer;
+}
+
+.no1 a{/*noと１の間にドットは入れてはいけない。*/
+    background-image:url(../img/backblack1.png);
+}
+
+.no2 a{
+    background-image:url(../img/blackback2.png);
+}
+
+.no3 a{
+    background-image:url(../img/blackback3.png);
+}
+
+.no4 a{
+    background-image:url(../img/blackback4.png);
+}
+
+.title01{
+    font-size:1rem;/*1remは普段通りぼ大きさ*//*サイズは固定値にあまりしない方がいい。*/
+    color:rgb(223, 222, 120);
+    font-weight: 600;
+}
+
+.title02{
+    font-family :
+	YuMincho,    /* Mac用 */
+	'Yu Mincho', /* Windows用 */
+	serif;
+    font-size:1.2rem;
+    font-weight:600;/*文字の太さを変える方法*/
+}
+
+#gray{
+    padding:40px;
+}
+
+.gray_midashi{
+    height:70px;
+    position:relative;/*親要素に使う*/
+}
+
+.gray_title{
+    color:#ccc9c9;
+    font-size: 2rem;
+    margin-bottom:0;
+    position:absolute;/*子要素に使う*/
+}
+
+.gray_btn{
+    margin-bottom:0;
+    text-align:center;/*要素を横中央にする方法*/
+    line-height:30px;/*要素を縦中央にする方法*//*heightと同じ高さにする。*/
+    /*一行パターン（このコード）と複数行パターン...vartical-align:middle; + display:table-cell;*/
+    width:100px;
+    height:30px;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #1100ff;
+    border-radius:4px;/*角を丸くするコード*/
+    position:relative;/*子要素に使う*/
+    left:370px;
+    top:8px;
+}
+.gray_btn2{
+    margin-bottom:0;
+    text-align:center;/*要素を横中央にする方法*/
+    line-height:30px;/*要素を縦中央にする方法*//*heightと同じ高さにする。*/
+    /*一行パターン（このコード）と複数行パターン...vartical-align:middle; + display:table-cell;*/
+    width:75px;
+    height:30px;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #1100ff;
+    border-radius:4px;/*角を丸くするコード*/
+    position:relative;/*子要素に使う*/
+    left:150px;
+    top:8px;
+}
+
+.img-fluid{
+    height:94px!important;
+}
+
+.p_photo{
+    text-align: center;
+}
+.p_photo a:hover{
+    opacity: 0.7;
+}
+
+p.name{
+    margin-top:10px;
+    font-size:0.8rem;
+    text-align: center;/*文字の中央揃え*/
+}
+
+/*.new{
+    position: relative;
+}
+
+.new a::after{
+    content:"";
+    background-image: url(../img/icon_new.png);
+    width: 60px;
+    height:63px;
+    position:absolute;
+    top:-15px;
+    left:60px;
+}*/
+
+section#main{
+    padding-bottom: 2rem;
+}
+@media screen and (max-width:600px){
+
+}
